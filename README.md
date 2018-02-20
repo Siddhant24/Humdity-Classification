@@ -1,5 +1,5 @@
-# Weather-Data-Classification
-Weather Data Classification using Decision Trees
+# Humidity-Classification
+Humidity using Decision Trees
 
 <br>Each row in daily_weather.csv captures weather data for a separate day.  <br><br>
 Sensor measurements from the weather station were captured at one-minute intervals.  These measurements were then processed to generate values to describe daily weathe. Since this dataset was created to classify low-humidity days vs. non-low-humidity days (that is, days with normal or high humidity), the variables included are weather measurements in the morning, with one measurement, namely relatively humidity, in the afternoon.  The idea is to use the morning weather values to predict whether the day will be low-humidity or not based on the afternoon measurement of relative humidity.
